@@ -1,0 +1,10 @@
+﻿  stringList.c
+c:\users\deanr\onedrive\מסמכים\visual studio 2017\projects\consoleapplication2\consoleapplication2\stringlist.c(144): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+c:\users\deanr\onedrive\מסמכים\visual studio 2017\projects\consoleapplication2\consoleapplication2\stringlist.c(192): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+c:\users\deanr\onedrive\מסמכים\visual studio 2017\projects\consoleapplication2\consoleapplication2\stringlist.c(208): warning C4133: 'initializing': incompatible types - from 'Data *' to 'char **'
+c:\users\deanr\onedrive\מסמכים\visual studio 2017\projects\consoleapplication2\consoleapplication2\stringlist.c(225): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'char **'
+c:\users\deanr\onedrive\מסמכים\visual studio 2017\projects\consoleapplication2\consoleapplication2\stringlist.c(228): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'char **'
+  genericLinkedList.c
+  Generating Code...
+  ConsoleApplication2.vcxproj -> C:\Users\deanr\OneDrive\מסמכים\Visual Studio 2017\Projects\ConsoleApplication2\x64\Debug\ConsoleApplication2.exe
+  ConsoleApplication2.vcxproj -> C:\Users\deanr\OneDrive\מסמכים\Visual Studio 2017\Projects\ConsoleApplication2\x64\Debug\ConsoleApplication2.pdb (Partial PDB)

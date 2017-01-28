@@ -1,0 +1,102 @@
+ 1. Creating empty string lists strList1 and strList2
+ 2. Making sure that strList1 is empty
+      okay
+ 3. Printing both string lists:
+     strList1: Empty list
+     strList2: Empty list
+ 4. Adding strings one by one to lists. Strings in strList1 are added to tail, and strings in strList2 are added sorted:
+     adding string Hello, 
+     strList1 has 1 strings: first: Hello,  |last: Hello, 
+     strList2 has 1 strings: first: Hello,  |last: Hello, 
+     adding string Hello world
+     strList1 has 2 strings: first: Hello,  |last: Hello world
+     strList2 has 2 strings: first: Hello world |last: Hello, 
+     adding string I
+     strList1 has 3 strings: first: Hello,  |last: I
+     strList2 has 3 strings: first: Hello world |last: I
+     adding string am
+     strList1 has 4 strings: first: Hello,  |last: am
+     strList2 has 4 strings: first: Hello world |last: am
+     adding string very
+     strList1 has 5 strings: first: Hello,  |last: very
+     strList2 has 5 strings: first: Hello world |last: very
+     adding string very
+     strList1 has 6 strings: first: Hello,  |last: very
+     strList2 has 6 strings: first: Hello world |last: very
+     adding string fine
+     strList1 has 7 strings: first: Hello,  |last: fine
+     strList2 has 7 strings: first: Hello world |last: very
+     adding string , I
+     strList1 has 8 strings: first: Hello,  |last: , I
+     strList2 has 8 strings: first: , I |last: very
+     adding string am
+     strList1 has 9 strings: first: Hello,  |last: am
+     strList2 has 9 strings: first: , I |last: very
+     adding string .
+     strList1 has 10 strings: first: Hello,  |last: .
+     strList2 has 10 strings: first: , I |last: very
+ 5. Making sure that list does not point to source string, by modifying first source string to "Something new":
+     first string in strList1 his still "Hello, " 
+ 6. Printing strList1 using format=0:
+Hello, 
+Hello world
+I
+am
+very
+very
+fine
+, I
+am
+.
+ 7. Printing strList2 using format=0:
+, I
+.
+Hello world
+Hello, 
+I
+am
+am
+fine
+very
+very
+ 8. Printing strList1 using format=1:
+Hello, 
+Hello world
+I
+am
+very
+fine
+, I
+am
+.
+ 9. Printing strList2 using format=1:
+, I
+.
+Hello world
+Hello, 
+I
+am
+fine
+very
+10. Printing strList1 using format=2:
+   1 Hello, 
+   1 Hello world
+   1 I
+   1 am
+   2 very
+   1 fine
+   1 , I
+   1 am
+   1 .
+11. Printing strList2 using format=2:
+   1 , I
+   1 .
+   1 Hello world
+   1 Hello, 
+   1 I
+   2 am
+   1 fine
+   2 very
+12. Printing strList1 using format=3:
+13. Printing strList2 using format=3:
+14. Freeing both lists.
